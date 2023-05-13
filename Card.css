@@ -1,0 +1,30 @@
+.photo{
+	width: 150px;
+	border-radius: 75px;
+}
+.info{
+	font-family:Sans-serif;
+	width: 400px;
+	display:flex;
+	margin:0 auto;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background:skyblue;
+	border-bottom: 5px solid black;
+	text-align:center;
+	position:relative;
+	animation-name: example;
+ 	animation-duration: 4s;
+	animation-direction: reverse;
+}
+@keyframes example {
+  	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:green; left:-500px; top:250px;}
+	50%  {background-color:yellow; left:0px; top:500px;}
+	75%  {background-color:red; left:500px; top:250px;}
+  	100% {background-color:skyblue; left:0px; top:0px;}
+}
+h4:hover, h4:active{color:red;}
